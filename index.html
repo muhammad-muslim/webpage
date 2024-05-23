@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imdady</title>
+    <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.js">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!-- Contact Us -->
+    <div class="container-fluid">
+        <div class=" row">
+            <div class="col-md-12  d-flex flex-row justify-content-center  nav-bgbannertop top">
+                <p><a href="tel:+966535090666">Saudi Arabia&nbsp; <i class="fas fa-solid fa-phone-volume"></i>&nbsp; 966
+                        535090666</a> &nbsp; l &nbsp; <a href="tel:+ 971507586774">United Arab Emirates&nbsp;&nbsp;<i
+                            class="fas fa-solid fa-phone-volume"></i>&nbsp;+971 507586774</a> &nbsp; l &nbsp;</a> l <a
+                        href="tel:+96567009026">Kuwait &nbsp;&nbsp;<i class="fas fa-solid fa-phone-volume"></i>&nbsp;
+                        +965 67009026&nbsp; </a>&nbsp;</p>
+            </div>
+        </div>
+    </div>
+    <!-- Contact Us -->
+    <!-- Navbar -->
+    <div class="container-nav" id="navbar">
+        <div class="logo">
+            <a href="index.html"> <img src="logo.png" alt=""></a>
+        </div>
+        <nav id="nav" class="nav">
+            <ul class="">
+                <li><a href="#" class="tabss" data-tab="tabContent1">Products & Features</a></li>
+                <li><a href="prices.php" class="tabss" data-tab="tabContent3">Pricing</a></li>
+                <li class="language" class="tabss" data-tab="tabContent2"><a style="color: #000;">العربية </a></li>
+                <li class="language" class="tabss" data-tab="tabContent4"><a style="color: #000;">English</a></li>
+            </ul>
+        </nav>
+
+        <a href="try-free.php"> <button class="nav-btn">Try For Free</button></a>
+        <div class="toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight"
+            aria-controls="offcanvasRight" onclick="myfunc()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+    <!-- Navbar -->
+    <!-- Navbar Content -->
+    <div id="tabContent1" class="navtab-content ">
+        <div class="nav-contant">
+            <div class="row rows">
+                <p>Improve Your Operations</p>
+                <ul>
+                    <a href="point-of-sale.php">
+                        <li>Point of Sale</li>
+                    </a>
+                    <a href="inventory-management.php">
+                        <li>Inventory Management</li>
+                    </a>
+                    <a href="accounting.php">
+                        <li>Accounting</li>
+                    </a>
+                    <a href="purchase.php">
+                        <li>Purchase</li>
+                    </a>
+                    <a href="deposit-system.php">
+                        <li>Deposit System</li>
+                    </a>
+                    <a href="returns-management.php">
+                        <li>Return Management</li>
+                    </a>
+                    <a href="table-management.php">
+                        <li>Table Management</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="row rows">
+                <ul>
+                    <a href="multiple-printer.php">
+                        <li>Multi Printing</li>
+                    </a>
+                    <a href="qr-code.php">
+                        <li>QR Ordering</li>
+                    </a>
+                    <a href="kitchen-screen.php">
+                        <li>Kitchen Display</li>
+                    </a>
+                    <a href="vender-management.php">
+                        <li>Vendor Management</li>
+                    </a>
+                </ul>
+                <p>Wave subscription fee</p>
+                <ul>
+                    <a href="referral.php">
+                        <li>Referral Program</li>
+                    </a>
+                </ul>
+                <p>Get to Know Your Clients</p>
+                <ul>
+                    <a href="loyalty-programme.php">
+                        <li>Loyalty Program</li>
+                    </a>
+                </ul>
+            </div>
+
+            <div class="row rows">
+                <p>Boost Your Online Business</p>
+                <ul>
+                    <a href="online-ordering.php">
+                        <li>Online Ordering</li>
+                    </a>
+                    <a href="Rider-Management-System.php">
+                        <li>Rider Management</li>
+                    </a>
+                    <a href="restaurant-promotion.php">
+                        <li>Promotions</li>
+                    </a>
+                </ul>
+                <img class="nav-img" src="Web-ios--andriod.png" alt="">
+                <p>All-in-one cloud-based a RMS & POS solution.</p>
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Navbar Content -->
+    <!-- Responsive Navbar -->
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+            <a href="index.php">
+                <h5 id="offcanvasRightLabel" style="color:  #7533AF;">Imdady</h5>
+            </a>
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body ">
+            <div class="canvas">
+                <p><a href="#" class="canvas-tab" data-tab="tabs1">Products & Features</a></p>
+                <div id="tabs1" class="canvas-tab-content">
+                    <div class="vertical-scrolling-div">
+                        <div class="d-flex flex-col">
+                            <div class="nav-contant-res">
+                                <div class="row rows ">
+                                    <p>Improve Your Operations</p>
+                                    <ul>
+                                        <a href="accounting.php">
+                                            <li>Accounting</li>
+                                        </a>
+                                        <a href="purchase.php">
+                                            <li>Purchase</li>
+                                        </a>
+                                        <a href="deposit-system.php">
+                                            <li>Deposit System</li>
+                                        </a>
+                                        <a href="returns-management.php">
+                                            <li>Return Management</li>
+                                        </a>
+                                        <a href="table-management.php">
+                                            <li>Table Management</li>
+                                        </a>
+                                        <a href="multiple-printer.php">
+                                            <li>Multi Printing</li>
+                                        </a>
+                                        <a href="qr-code.php">
+                                            <li>QR Ordering</li>
+                                        </a>
+                                        <a href="kitchen-screen.php">
+                                            <li>Kitchen Display</li>
+                                        </a>
+                                        <a href="vender-management.php">
+                                            <li>Vendor Management</li>
+                                        </a>
+                                    </ul>
+                                </div>
+
+                                <div class="row rows">
+                                    <p>Wave subscription fee</p>
+                                    <ul>
+                                        <a href="referral.php">
+                                            <li>Referral Program</li>
+                                        </a>
+                                    </ul>
+                                    <p>Get to Know Your Clients</p>
+                                    <ul>
+                                        <a href="loyalty-programme.php">
+                                            <li>Loyalty Program</li>
+                                        </a>
+                                    </ul>
+                                </div>
+
+                                <div class="row rows">
+                                    <p>Boost Your Online Business</p>
+                                    <ul>
+                                        <a href="online-ordering.php">
+                                            <li>Online Ordering</li>
+                                        </a>
+                                        <a href="Rider-Management-System.php">
+                                            <li>Rider Management</li>
+                                        </a>
+                                        <a href="restaurant-promotion.php">
+                                            <li>Promotions</li>
+                                        </a>
+                                    </ul>
+                                    <img class="-img" src="images/Web-ios--andriod.png" alt="">
+                                    <p>All-in-one cloud-based a RMS & POS solution.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <p> <a href="prices.php" class="canvas-tab">Pricing</a></p>
+                <p> <a href="#" class="canvas-tab">العربية</a></p>
+                <p> <a href="#" class="canvas-tab">English</a></p>
+            </div>
+
+
+
+
+        </div>
+    </div>
+    <!-- Responsive Navbar -->
+    <!-- Main Body -->
+    <div class="marginTop"></div>
+    <div class="container d-flex justify-content-center align-items-center">
+        <div class="text-center" style="line-height: 35px;">
+            <p class="fs-1 text-capitalize fw-bold">revolutionize your restaurant management with</p>
+            <p class="fs-1 text-capitalize fw-bold text">imdady's cloud POS system</p>
+            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam sint cupiditate aperiam
+                asperiores voluptatem corrupti dolorum consectetur porro distinctio velit ipsam et at, aliquid dicta
+                nostrum qui rerum fuga temporibus! Iure obcaecati, illum reiciendis optio cumque dolorem enim
+                distinctio? Voluptas iste autem quisquam porro maiores recusandae tempore nisi quibusdam</p>
+            <div class="btn btn-secondary text-capitalize">get started today</div> 
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center">
+        <img src="Imdadycloud.webp" class="img-fluid" alt="">
+    </div>
+    <div class="marginTop"></div>
+    <div class="container-fluid background d-flex justify-content-center align-items-center">
+        <div class="text-center mt-5 my-5">
+            <p class="fs-2 text-capitalize fw-bold text">key features</p>
+            <div class="container mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-3  mb-4">
+                        <div class="card roundedbody shadow py-3">
+
+                            <div class="card-body">
+                                <img src="Simplifyprocess.png"  height="60px" alt="">
+                                <h5 class="card-title mt-3 text fs-3">Simplify Processes</h5>
+                                <p class="card-text mt-3 text-secondary">Some quick example text to build on the card
+                                    title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mb-4">
+                        <div class="card roundedbody shadow py-3">
+
+                            <div class="card-body">
+                                <img src="Inventory-Management.png"  height="60px" alt="">
+                                <h5 class="card-title mt-3 text fs-3">Inventory Management</h5>
+                                <p class="card-text mt-3 text-secondary">Some quick example text to build on the card
+                                    title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mb-4">
+                        <div class="card roundedbody shadow py-3">
+
+                            <div class="card-body">
+                                <img src="Cloudservice.png"  height="60px" alt="">
+                                <h5 class="card-title mt-3 text fs-3 px-lg-5">Cloud Service</h5>
+                                <p class="card-text mt-3 text-secondary">Some quick example text to build on the card
+                                    title and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn btn-secondary text-capitalize mt-4">explore key features</div>
+        </div>
+    </div>
+    <div class="marginTop"></div>
+    <div class="container-fluid">
+        <div class="row d-flex align-items-center">
+            <div class="col-md-6"><img src="DeployImdadyIMG.webp" class="img-fluid" alt=""></div>
+            <div class="col-md-4">
+                <p class="fs-2 text fw-bold">Deploy Imdady POS to Increase Sales</p>
+                <p class="text-secondary indexpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores maxime illo itaque error unde eius animi veritatis! Officiis laborum sequi fuga alias rerum velit, repellat quae quaerat atque commodi maiores, voluptate provident. Dignissimos sit debitis cumque earum asperiores blanditiis ab.</p>
+            </div>
+        </div>
+    </div>
+    <div class="marginTop"></div>
+    <div class="container-fluid">
+        <div class="row d-flex justify-content-end align-items-center">
+            <div class="col-md-4">
+                <p class="fs-2 text fw-bold">Imdady POS-Your All-in-One Solution for Success</p>
+                <p class="text-secondary indexpara">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores maxime illo itaque error unde eius animi veritatis! Officiis laborum sequi fuga alias rerum velit, repellat quae quaerat atque commodi maiores, voluptate provident. Dignissimos sit debitis cumque earum asperiores blanditiis ab.</p>
+            </div>
+            <div class="col-md-6"><img src="allinonesolution.webp" alt=""></div>
+            
+        </div>
+    </div>
+    <div class="marginTop"></div>
+    <div class="container-fluid backgrounddefault d-flex justify-content-center align-items-center">
+        <div class="text-center mt-5 my-5">
+            <p class="fs-2 text-capitalize fw-bold text-white">why choose us?</p>
+            <div class="container-fluid mt-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-3  mb-4">
+                        <div class="card roundedbody py-3" style="background-color: #7533AF; border: none;">
+
+                            <div class="card-body">
+                                <img src="Customerexperience.png" height="60px" alt="">
+                                <h5 class="card-title mt-3 text-white fs-3">Enhanced Customer Experience</h5>
+                                <p class="card-text mt-3 text-white">Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mb-4">
+                        <div class="card roundedbody py-3" style="background-color: #7533AF; border: none;">
+
+                            <div class="card-body">
+                                <img src="Hasslefreeintegration.png" height="60px" alt="">
+                                <h5 class="card-title mt-3 text-white fs-3">Hassle-Free Integrations</h5>
+                                <p class="card-text mt-3 text-white">Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3  mb-4">
+                        <div class="card roundedbody  py-3" style="background-color: #7533AF; border: none;">
+
+                            <div class="card-body bg-none">
+                                <img src="Analyticsreporting.png" height="60px" alt="">
+                                <h5 class="card-title mt-3 text-white fs-3">Analytics & Reporting</h5>
+                                <p class="card-text mt-3 text-white">Some quick example text to build on the card title
+                                    and make up the bulk of the card's content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="btn btn-light btnbody  text-capitalize mt-4">try for free</div>
+        </div>
+    </div>
+    <div class="container mt-5">
+        <div class="row d-flex justify-content-center align-items-center">
+            <div class="col-md-5">
+               <img src="Contact.webp" alt="">
+            </div>
+            <div class="col-md-5">
+                <p class="fs-2 text-capitalize fw-bold text-dark">schedule a demo now</p>
+                <form action="">
+                    <div class="mb-3">
+                        <input type="text" placeholder="Enter Name" class="form-control" id=""
+                            placeholder="First input">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" placeholder="Example@domain.com" class="form-control" id=""
+                            placeholder="Second input">
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" placeholder="+966 80 000 0000" class="form-control" id=""
+                            placeholder="Third input">
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="" class="form-control " placeholder="Write us a message" id=""></textarea>
+                    </div>
+                    <div class="btn btn-secondary text-capitalize">send message</div>
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    <footer class="new-footer mt-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4 new-footer-column">
+                    <img src="images/logo.png" alt="" />
+                    <p>
+                        <i class="fas fa-solid fa-phone-volume"></i><a href="tel:+966535090666"> 966 535090666</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-solid fa-envelope"></i><a href="mailto:info@imdady.com"> info@imdady.com</a>
+                    </p>
+                    <p>
+                        <i class="fas fa-solid fa-map-marker"></i>
+                        <a href="">
+                            2059 Makkah Al Mukarramah Br Rd, As Sulimaniyah, Riyadh 12621
+                            Business Center – 5th Floor – Chamber of Commerce- Hail</a>
+                    </p>
+                </div>
+                <div class="col-md-2 new-footer-column">
+                    <h4>PRODUCTS</h4>
+                    <p><a href="point-of-sale.php">Point of Sale</a></p>
+                    <p><a href="Restaurant-management.php">Restaurant Management</a></p>
+                </div>
+                <div class="col-md-2 new-footer-column">
+                    <h4>COMPANY</h4>
+                    <p><a href="about.php">About</a></p>
+                    <p><a href="blog.php">Blog</a></p>
+                    <p><a href="contact.php">Contact Us</a></p>
+                    <p><a href="referral.php">Referral Program</a></p>
+                </div>
+                <div class="col-md-2 new-footer-column">
+                    <h4>LEGAL</h4>
+                    <p><a href="">Terms of Service</a></p>
+                    <p><a href="privacy.php">Privacy Policy</a></p>
+                </div>
+                <div class="col-md-2 new-footer-column">
+                    <h4>OUR PRESENCE</h4>
+                    <p><a href="https://imdady.com/">Saudi Arabia</a></p>
+                    <p><a href="https://sshnetworks.biz">United Arab Emirates</a></p>
+                    <p><a href="https://kuwait.imdady.com/">Kuwait</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mt-5">
+                    <p>
+                        <a class="text-light" href="">Imdady © 2024. All Rights Reserved.</a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <div class="social-media new-footer">
+                        <div>
+                            <h4>FOLLOW US</h4>
+                        </div>
+                        <div class="mb-2 social-mar mt-3">
+                            <a href="https://www.facebook.com/Imdady-107930805049055">
+                                <img src="fb2.webp" class="ps-3" alt="social" /></a>
+                            <a href="https://www.linkedin.com/showcase/imdady-technologies/">
+                                <img src="in2.webp" class="ps-3" alt="social" /></a>
+                            <a href="https://twitter.com/infoimdady">
+                                <img src="twitter3.webp" class="ps-3" alt="social" /></a>
+                            <a href="https://instagram.com/infoimdady">
+                                <img src="insta2.webp" class="ps-3" alt="social" /></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="nav.js"></script>
+
+</body>
+
+</html>
